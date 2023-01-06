@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-size: 1em;
+}
+.cust-top-nav {
+  font-size: 2em;
+}
+.hero {
+  border: 2px solid black;
+  background-image: url("Hero-firma.jpg");
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+.hero-text {
+  width: 50vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 5vw 0vw 0vw 5vw;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 1vw;
+}
+.btn-modal {
+  margin: 5vw;
+  position: inherit;
+  width: 50vw;
+}
+.custom-btn {
+  width: 140px;
+  height: 35px;
+}
+.modal-icon {
+  height: 3vw;
+}
+.carous-part {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5vw;
+}
+.carous-container {
+  width: 70%;
+  height: 50vw;
+  margin: 1vw;
+  display: flex;
+  justify-content: center;
+}
+.carous-text {
+  width: 25%;
+  height: auto;
+  margin: auto;
+  font-size: 1.2em;
+}
+.carousel-caption {
+  max-width: 30vw;
+  margin: auto;
+}
+
+.carous-img {
+  max-height: 50vw;
+  max-width: 65vw;
+  border: 1px solid black;
+  border-radius: 1%;
+  align-content: center;
+}
+.carousel-caption {
+  color: white;
+  background: rgb(0, 0, 0, 0.5);
+  padding: 0.5vw;
+}
+.cards-onas {
+  display: flex;
+  flex-wrap: wrap;
+}
+.single-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30vw;
+  justify-content: space-around;
+  text-align: center;
+  margin: auto;
+}
+.onas-text {
+  text-align: center;
+  margin: 2vw;
+  font-size: 1.5rem;
+}
+.card-img {
+  height: 40vw;
+}
+.onas-h {
+  margin: auto;
+}
+.font-text {
+  font-family: "Rowdies", cursive;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.font-text .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.font-text:hover .tooltiptext {
+  visibility: visible;
+}
+.table {
+  margin: 2vw;
+}
+.cenik {
+  display: flex;
+  flex-direction: column;
+}
+.cenik-h {
+  margin: auto;
+  margin-top: 5vw;
+}
+.map-part {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bottom-nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.cust-bott-nav a {
+  color: white;
+}
+.formular {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  margin: 5vw;
+}
+.label-line {
+  border: 1px solid black;
+  width: 15vw;
+  font-size: 1.1em;
+}
+.form-btn {
+  width: 33vw;
+}
+
+.form-line {
+  display: flex;
+  flex-direction: line;
+  align-content: center;
+}
+.form-textarea {
+  width: 48vw;
+  height: 10vw;
+  margin-top: 1vw;
+}
+.label-text {
+  margin-top: 1vw;
+  font-size: 1.1em;
+}
+.textarea-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+}
+@media screen and (max-width: 540px) {
+  .single-card {
+    width: 60vw;
+    font-size: 1.5em;
+    border: 2px solid black;
+  }
+  .cards-onas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .card-img {
+    width: 60vw;
+    height: auto;
+    display: none;
+  }
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hero-text {
+    width: 80vw;
+    margin: auto;
+  }
+  .btn-modal {
+    margin: auto;
+  }
+  .carous-container {
+    width: 90%;
+    height: 60vw;
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+  }
+  .carous-text {
+    width: auto;
+    margin: auto;
+    text-align: center;
+  }
+
+  .form-textarea {
+    width: 60vw;
+    height: 40vw;
+    margin-top: 1vw;
+  }
+}
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .single-card {
+    width: 40vw;
+    font-size: 1.5em;
+    margin: 4vw;
+  }
+  .cards-onas {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-img {
+    width: 40vw;
+    height: 40vw;
+  }
+  .form-textarea {
+    width: 60vw;
+    height: 40vw;
+    margin-top: 1vw;
+  }
+  .carous-container {
+    width: 90%;
+    height: 60vw;
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+  }
+  .carous-text {
+    width: auto;
+    margin: auto;
+    text-align: center;
+  }
+}
